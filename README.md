@@ -25,3 +25,4 @@ Description: The IntuneAppUtil utility enables conversion of application install
 * -o  <output_file>    Used in conjunction with -c parameter to specify the output path
 * -v  Verbose: Produces additional progress output and error diagnostics.
 
+Note: After you download IntuneAppUtil to your Mac device, you may need to assign read and execute permission to it.
