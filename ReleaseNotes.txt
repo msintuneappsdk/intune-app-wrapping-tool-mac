@@ -1,0 +1,2 @@
+1.0
+It's the first version of Microsoft Intune App Wrapping Tool for macOS. It will check the macOS package (.pkg) file and generate a .intunemac file to be imported into Intune Azure Portal.
