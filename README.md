@@ -5,7 +5,7 @@ Version 1.0
 
 See release notes for more information.
 
-Use the Microsoft Intune App Wrapping Tool for macOS to pre-process macOS line-of-business (LOB) apps. Once you use this tool on your apps, you will then be able to upload and assign the apps to the Microsoft Intune console. 
+Use the Microsoft Intune App Wrapping Tool for macOS to pre-process macOS line-of-business (LOB) apps. The wrapping tool converts application installation files into the .intunemac format. The wrapping tool also detects the parameters required by the MDM agent to determine the application installation state. Once you use this tool on your apps, you will then be able to upload and assign the apps to the Microsoft Intune console. 
 
 Before you install and use Microsoft Intune App Wrapping Tool for macOS you **must**:
 * Review the [Microsoft License Terms for Microsoft Intune App Wrapping Tool for macOS](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/blob/master/LicenseTerms/Microsoft%20Software%20License%20Terms%20Intune%20App%20Wrapping%20Tool%20for%20macOS%20-%20English.pdf). Print and retain a copy of the license terms for your records. By downloading and using Microsoft Intune App Wrapping Tool for macOS, you agree to such license terms. If you do not accept them, do not use the software.
@@ -16,8 +16,7 @@ Instructions on using the Microsoft Intune App Wrapping Tool for macOS:
 * IntuneAppUtil -r <filename.intunemac> [-v]
 * IntuneAppUtil -c <source_file> -o <output_file> [-v]
 
-Description: The IntuneAppUtil utility enables conversion of application installation files into the intunemac format which is compatible with Microsoft Intune. During the conversion process the IntuneAppUtil utility detects the parameters required by the MDM agent to determine the application installation state.
-
+Command-line parameters available:
 * -h  Help
 * -r  Outputs the detection.xml file of the provided .intunemac file to stdout. The output contains the detection parameters and version of IntuneAppUtil used to create the .intunemac file.
 * -c  <source_file>
@@ -25,4 +24,4 @@ Description: The IntuneAppUtil utility enables conversion of application install
 * -o  <output_file>    Used in conjunction with -c parameter to specify the output path
 * -v  Verbose: Produces additional progress output and error diagnostics.
 
-Note: After you download IntuneAppUtil to your Mac device, you may need to assign read and execute permission to it.
+Note: After you download IntuneAppUtil to your Mac device, you may need to assign read and execute permissions to it.
