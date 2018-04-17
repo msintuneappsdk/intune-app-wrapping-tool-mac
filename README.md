@@ -11,10 +11,15 @@ Before you install and the use Microsoft Intune App Wrapping Tool for macOS you 
 * Review the [Microsoft License Terms for Microsoft Intune App Wrapping Tool for macOS](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/blob/master/LicenseTerms/Microsoft%20Software%20License%20Terms%20Intune%20App%20Wrapping%20Tool%20for%20macOS%20-%20English.pdf). Print and retain a copy of the license terms for your records. By downloading and using Microsoft Intune App Wrapping Tool for macOS, you agree to such license terms. If you do not accept them, do not use the software.
 * Review the [Microsoft Intune Privacy Statement](https://docs.microsoft.com/legal/intune/microsoft-intune-privacy-statement) for information on the privacy policy of the Intune App Wrapping Tool for macOS.
 
-Instructions on using the Microsoft Intune App Wrapping Tool for macOS:
+Sample commands to use for the Microsoft Intune App Wrapping Tool for macOS:
 * IntuneAppUtil -h
-* IntuneAppUtil -r <filename.intunemac> [-v]
+* This will show usage information for the tool.
+
 * IntuneAppUtil -c <source_file> -o <output_file> [-v]
+* This will generate the .intunemac file from the .pkg line-of-business app file.
+
+* IntuneAppUtil -r <filename.intunemac> [-v]
+* This will extract the detected parameters and version for the created .intunemac file.
 
 Command-line parameters available
 * -h  Help
