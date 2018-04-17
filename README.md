@@ -13,13 +13,13 @@ Before you install and the use Microsoft Intune App Wrapping Tool for macOS you 
 
 Sample commands to use for the Microsoft Intune App Wrapping Tool for macOS:
 * IntuneAppUtil -h
-* This will show usage information for the tool.
+  * This will show usage information for the tool.
 
 * IntuneAppUtil -c <source_file> -o <output_file> [-v]
-* This will generate the .intunemac file from the .pkg line-of-business app file.
+  * This will generate the .intunemac file from the .pkg line-of-business app file.
 
 * IntuneAppUtil -r <filename.intunemac> [-v]
-* This will extract the detected parameters and version for the created .intunemac file.
+  * This will extract the detected parameters and version for the created .intunemac file.
 
 Command-line parameters available
 * -h  Help
