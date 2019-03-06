@@ -1,7 +1,7 @@
 # Microsoft Intune App Wrapping Tool for macOS
 Manage macOS line-of-business apps with Intune
 
-[Version 1.1](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/releases)
+[Version 1.1](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/releases/tag/v1.1)
 
 [See release notes for more information.](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/releases)
 
