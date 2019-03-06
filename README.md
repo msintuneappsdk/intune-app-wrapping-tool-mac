@@ -1,7 +1,7 @@
 # Microsoft Intune App Wrapping Tool for macOS
 Manage macOS line-of-business apps with Intune
 
-[Version 1.0](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/releases)
+[Version 1.1](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/releases)
 
 [See release notes for more information.](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/releases)
 
@@ -15,7 +15,7 @@ Sample commands to use for the Microsoft Intune App Wrapping Tool for macOS:
 * IntuneAppUtil -h
   * This will show usage information for the tool.
 
-* IntuneAppUtil -c <source_file> -o <output_file> [-v]
+* IntuneAppUtil -c <source_file> -o <output_file> [-i] <package bundle Id> [-n] <package bundle version> [-v]
   * This will generate the .intunemac file from the .pkg line-of-business app file.
 
 * IntuneAppUtil -r <filename.intunemac> [-v]
@@ -28,5 +28,11 @@ Command-line parameters available
     Converts the provided input filename. Only pkg file is supported.
 * -o  <output_file>    Used in conjunction with -c parameter to specify the output path
 * -v  Verbose: Produces additional progress output and error diagnostics.
+* -i  <package bundle Id>
+    Used in conjunction with -c parameter to specify the package bundle Id. Optional.
+* -n  <package bundle version>
+    Used in conjunction with -c parameter to specify the package bnndle version. Optional.
+
+If no valid application information can be found, this tool will use package bundle Id and package bundle version to build app detection data. You can use "-i" and "-n" parameters to override them.
 
 Note: After you download IntuneAppUtil to your Mac device, you may need to assign read and execute permission to it.
