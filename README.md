@@ -7,7 +7,7 @@ Manage macOS line-of-business apps with Intune
 
 Use the Microsoft Intune App Wrapping Tool for macOS to pre-process macOS line-of-business apps. The wrapping tool converts application installation files into the .intunemac format. The wrapping tool also detects the parameters required by the mobile device management (MDM) agent to determine the application installation state. After you use this tool on your apps, you will be able to upload and assign the apps in the Microsoft Intune console. 
 
-Before you install and the use Microsoft Intune App Wrapping Tool for macOS you **must**:
+Before you install and use the Microsoft Intune App Wrapping Tool for macOS you must:
 * Review the [Microsoft License Terms for Microsoft Intune App Wrapping Tool for macOS](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac/blob/master/LicenseTerms/Microsoft%20Software%20License%20Terms%20Intune%20App%20Wrapping%20Tool%20for%20macOS%20-%20English.pdf). Print and retain a copy of the license terms for your records. By downloading and using Microsoft Intune App Wrapping Tool for macOS, you agree to such license terms. If you do not accept them, do not use the software.
 * Review the [Microsoft Intune Privacy Statement](https://docs.microsoft.com/legal/intune/microsoft-intune-privacy-statement) for information on the privacy policy of the Intune App Wrapping Tool for macOS.
 
@@ -35,4 +35,4 @@ Command-line parameters available
 
 If no valid application information can be found, this tool will use package bundle Id and package bundle version to build app detection data. You can use "-i" and "-n" parameters to override them.
 
-Note: After you download IntuneAppUtil to your Mac device, you may need to assign read and execute permission to it.
+Note: After you download IntuneAppUtil to your Mac device, you may need to assign read and execute permissions to it.
