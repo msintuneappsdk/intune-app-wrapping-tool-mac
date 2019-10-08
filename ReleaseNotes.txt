@@ -1,3 +1,6 @@
+1.2
+Rebuild the tool as 64-bit executable and notarize it to support macOS Catalina.
+
 1.1
 Add -r and -n parameters to override package bundle Id and package bundle version. Both are optional.
 
