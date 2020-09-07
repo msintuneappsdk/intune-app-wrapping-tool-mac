@@ -26,7 +26,7 @@ Command-line parameters available
 * -r  Outputs the detection.xml file of the provided .intunemac file to stdout. The output contains the detection parameters and version of IntuneAppUtil used to create the .intunemac file.
 * -c  <source_file>
     Converts the provided input filename. Only pkg file is supported.
-* -o  <output_file>    Used in conjunction with -c parameter to specify the output path
+* -o  <output_file>    Used in conjunction with -c parameter to specify the output path. Use "-o ./" to output the .intunemac to the same folder.
 * -v  Verbose: Produces additional progress output and error diagnostics.
 * -i  <package bundle Id>
     Used in conjunction with -c parameter to specify the package bundle Id. Optional.
