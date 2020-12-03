@@ -31,7 +31,7 @@ Command-line parameters available
 * -i  <package bundle Id>
     Used in conjunction with -c parameter to specify the package bundle Id. Optional.
 * -n  <package bundle version>
-    Used in conjunction with -c parameter to specify the package bnndle version. Optional.
+    Used in conjunction with -c parameter to specify the package bundle version. Optional.
 
 If no valid application information can be found, this tool will use package bundle Id and package bundle version to build app detection data. You can use "-i" and "-n" parameters to override them.
 
